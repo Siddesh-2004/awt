@@ -1,0 +1,25 @@
+{
+  "name": "interview-experiences",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server/server.js",
+  "scripts": {
+    "compile": "babel src --out-dir public",
+    "watch": "babel src --out-dir public --watch",
+    "start": "nodemon --watch server server/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.0",
+    "@babel/core": "^7.25.0",
+    "@babel/preset-react": "^7.24.7",
+
+    "nodemon": "^3.1.4"
+  }
+}
